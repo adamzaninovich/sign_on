@@ -47,3 +47,4 @@ gem "capybara", ">= 1.1.2", :group => :test
 gem "email_spec", ">= 1.2.1", :group => :test
 gem "factory_girl_rails", ">= 4.0.0", :group => [:development, :test]
 gem "bootstrap-sass", ">= 2.1.0.0"
+gem "hub", ">= 1.10.2", :require => nil, :group => [:development]
