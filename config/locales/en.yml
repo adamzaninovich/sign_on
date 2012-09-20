@@ -6,3 +6,9 @@ en:
     success: "Signed in"
     failure: "Invalid login or password"
     logout: "Signed out"
+    registration:
+      success: "Signed up"
+      failure: ""
+      update:
+        success: "Your changes have been applied"
+        failure: ""

@@ -1,0 +1,11 @@
+sp:
+  auth:
+    success: "Suscrito en"
+    failure: "Correo electrónico o la contraseña no es válida"
+    logout: "Se ha cerrado la sesión"
+    registration:
+      success: "Contratado"
+      failure: ""
+      update:
+        success: "Los cambios que se han aplicado"
+        failure: ""

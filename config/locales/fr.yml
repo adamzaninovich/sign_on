@@ -1,0 +1,11 @@
+fr:
+  auth:
+    success: "Signée en"
+    failure: "email ou mot de passe invalide"
+    logout: "Déconnecté"
+    registration:
+      success: "Signé"
+      failure: ""
+      update:
+        success: "Vos changements ont été appliqués"
+        failure: ""

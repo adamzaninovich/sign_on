@@ -5,7 +5,7 @@ class SessionsController < ApplicationController
   
   def create
     user = warden.authenticate!
-    redirect_to user, notice: t('auth.success')
+    redirect_to account_path, notice: t('auth.success')
   end
   
   def destroy
