@@ -1,0 +1,6 @@
+%h1 Sign In
+
+= form_tag sessions_path, class: 'form-inline' do |f|
+  = text_field_tag :email, params[:email], placeholder: "email", class: 'input-medium'
+  = password_field_tag :password, nil, placeholder: "password", class: 'input-medium'
+  = submit_tag "Sign in", class: 'btn'

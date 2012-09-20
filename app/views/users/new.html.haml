@@ -1,0 +1,9 @@
+%h1 Sign up
+
+= simple_form_for(User.new, html: {class: 'form-horizontal' }) do |f|
+  = f.input :name
+  = f.input :username
+  = f.input :email
+  = f.input :password
+  = f.input :password_confirmation, label: "Confirm", required: true
+  = f.button :submit

@@ -2,12 +2,13 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.8'
 gem "thin", ">= 1.4.1"
-
+gem 'bcrypt-ruby', '3.0.1'
 gem 'warden', '~> 1.2.1'
 
 gem 'jquery-rails'
 gem "haml", ">= 3.1.7"
 gem "bootstrap-sass", ">= 2.1.0.0"
+gem 'simple_form', '~> 2.0.2'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
