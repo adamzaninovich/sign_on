@@ -5,6 +5,8 @@ gem "thin", ">= 1.4.1"
 gem 'bcrypt-ruby', '3.0.1'
 gem 'warden', '~> 1.2.1'
 
+gem 'strong_parameters', '~> 0.1.3'
+
 gem 'jquery-rails'
 gem "haml", ">= 3.1.7"
 gem "bootstrap-sass", ">= 2.1.0.0"
